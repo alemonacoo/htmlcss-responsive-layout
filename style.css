@@ -31,17 +31,21 @@
 }
 
 .purple-background{
-    background-color: rgb(138, 138, 219);
+    background-color: #9593e6;
 }
 
 .white-text{
     color: white;
+}
+.white-background{
+    background-color: white;
 }
 
 .container{
     display: flex;
     flex-direction: column;
     padding: 40px 40px;
+    row-gap: 30px;
 }
 
 .button{
@@ -52,9 +56,12 @@
     border-radius: 20px;
     align-items: center;
     font-weight: 700;
+    column-gap: 10px;
 }
-.button > i{
-    margin-right: 10px;
+
+
+.black-text{
+    color: black;
 }
 
 
@@ -113,10 +120,19 @@ main{
 }
 
 
+/* Second Section */
+#second-section img{
+    width: 80%;
+    align-self: center;
+}
 
 
+#second-section .card .button{
+    border-radius: 50%;
+    padding: 20px;
+}
 
-.
+/* Third Section */
 
 
 
