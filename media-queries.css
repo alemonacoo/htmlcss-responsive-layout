@@ -2,7 +2,33 @@
 
 /* Tablet */
 @media screen and (min-width: 780px){
+    /* General */
+    .container{
+        padding: 60px 20px;
+    }
 
+    /* First Section */
+    #first-section > .container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #first-section > .container > .card{
+        width: calc((100%/3) - 20px);
+    }
+    #first-section > .container > .card:first-of-type{
+        width: calc(((100%/3) * 2) - 20px);
+    }
+
+    /* Third Section */
+    #third-section > .container > .card{
+        flex-direction: row;
+    }
+    #third-section > .container > .card img{
+        width: 40%;
+        position: relative;
+        right: 20px;
+    }
     
 }
 

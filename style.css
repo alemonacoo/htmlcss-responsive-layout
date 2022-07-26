@@ -4,7 +4,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'PT Sans', sans-serif;
-    ;
 }
 
 :root{
@@ -73,7 +72,6 @@
     color: black;
 }
 
-
 /* Header */
 .nav-bar{
     min-height: 7vh;
@@ -96,8 +94,7 @@
 
 /* Main */
 
-main{
-    min-height: 5000px; /*Debug */
+main{ /*Debug */
     padding-top: 7vh;
     
 }
@@ -143,8 +140,15 @@ main{
 }
 
 /* Third Section */
+#third-section h1{
+    font-size: 2.5rem;
+    color: var(--color-purple);
+}
+#third-section .container > h3{
+    font-weight: 400;
+}
+
 #third-section img{
-    width: 130%;
     align-self: center;
     clip-path: circle(39%);
     z-index: 0;
