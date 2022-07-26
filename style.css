@@ -149,6 +149,7 @@ main{ /*Debug */
 }
 
 #third-section img{
+    width: 100%;
     align-self: center;
     clip-path: circle(39%);
     z-index: 0;
@@ -156,6 +157,7 @@ main{ /*Debug */
 
 #third-section .card p{
    font-size: 1.3rem;
+   text-align: center;
 }
 
 /* Fourth Section */
