@@ -47,7 +47,7 @@
 .container{
     display: flex;
     flex-direction: column;
-    padding: 40px 40px;
+    padding: 60px 40px;
     row-gap: 30px;
 }
 
@@ -159,6 +159,39 @@ main{
     align-items: flex-start;
 }
 
+/* Fifth Section */
+#fifth-section h1{
+    font-size: 2.5rem;
+    color: #9593e6;
+}
+
+#fifth-section .container > p{
+    font-size: 1.2rem;
+}
+.fifth-section-image-container{
+    width: 50%;
+    position: relative;
+    font-size: 5.5rem;
+}
+
+
+.fifth-section-image-container img{
+    border-radius: 50%;
+    width: 100%;
+}
+
+.fifth-section-image-container i{
+    position: absolute;
+    right: -5%;
+    top: -5%;
+    color: #9593e6;
+}
+
+.about-us-quote p{
+    color: #9593e6;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
 
 
 
